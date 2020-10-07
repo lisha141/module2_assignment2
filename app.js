@@ -38,7 +38,11 @@ qty:"10"},{
 name:"burgers",
 qty:"2"},{
 name:"pasta",
-qty:"3"}];
+qty:"3"},{
+name:"groceries",
+qty:"2 bags"},{
+name:"Cheese",
+qty:"2 packs"}];
 
 var b=[];
 var c=1;
