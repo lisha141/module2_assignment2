@@ -33,7 +33,7 @@ font-size:25px;
 <div class="row">
 <div class="col-lg-6" id="tobuy" ng-controller="ToBuyController as ToBuy">
 <h1>To Buy</h1>
-<div ng-if="ToBuy.count==3">{{ToBuy.msg}}</div>
+<div ng-if="ToBuy.count==5">{{ToBuy.msg}}</div>
 <ol type="1">
 <li ng-repeat="item in ToBuy.ShoppingList">Buy {{item.qty}} {{item.name}}. <button class="btn btn-default" ng-click="ToBuy.remove1($index); ToBuy.give()">Bought</button><br/></li>
 </ol>
